@@ -8,6 +8,30 @@ img{
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 
+button{
+  margin: 1;
+  padding: 5px;
+  border: #452064;
+  border-radius: 15px;
+  position: absolute;
+  top: 55%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  background-color: #452064;
+  width: 150px;
+  height: 80px;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slideUp 2s forwards;
+}
+
+@keyframes slideUp {
+  to {
+  opacity: 1;
+  transform: translateY(0);
+  }
+}
